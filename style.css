@@ -1,0 +1,176 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    color:#2D3748;
+    font-size: 18px;
+}
+
+header
+{
+  background-color: #3C8527;
+  grid-column: span 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  color: #FFFFFF;
+}
+
+header > *
+{
+    color: #FFFFFF;
+}
+
+header > h1
+{
+  font-size: 34px;
+  font-family: Trebuchet MS, Arial, sans-serif;
+}
+
+aside
+{
+  grid-column: 1;
+  padding-right: 5px;
+  margin-right: 5px;
+  border-right: 1px solid grey;
+}
+
+aside > h3
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+  padding-left: 5px;
+  margin-left: 5px;
+  padding-right: 10rem;
+  grid-column: 2;
+}
+
+article
+{
+    margin: 2rem;
+    padding: 10px 0px 10px 0px;
+}
+
+a 
+{
+  text-decoration: none;
+  color: #2879B8;
+}
+
+footer
+{
+  text-align: center;
+  background-color: #28651C;
+  height:4rem;
+  align-content: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+footer > p
+{
+    color: #FFFFFF;
+}
+
+#container 
+{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  font-size: 18px;
+  color:#2D3748;
+}
+
+#profile
+{
+  margin: 20px;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background-image: url("images/self.jpg");
+  background-size: contain;
+  background-size:180px;
+  background-position-x:center;
+  background-position-y: center;
+  grid-column: 1;
+}
+
+#about
+{
+  background-color: #E2E8F0;
+  padding: 10px 10px 10px 15px;
+  margin: 10px 10px 10px 15px;
+}
+#about > h3
+{
+  color: #333322;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 5px;
+}
+
+.sidebar
+{
+  padding: 10px;
+  margin: 30px 10px 30px 10px;
+  border-left: 3px solid green;
+}
+
+.sidebar > h3
+{
+  color: #28651C;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sidebar > ul 
+{
+  list-style-type: none;
+  font-weight:bold;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.sidebar > ul > li:hover
+{
+  transform: translateY(-5px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.leftimg
+{
+  float: left;
+  padding-right: 7px;
+  width:200px;
+  height:160px;
+}
+
+.rightimg
+{
+  float: right;
+  padding-left: 7px;
+  width:200px;
+  height:160px;
+}
+
+.Title
+{
+    margin-bottom: 2rem;
+}
+
+.Title > h2
+{
+  font-size: 34px;
+  color: #28651C;
+}
+
+.Title > p
+{
+  color: #667267;
+}
